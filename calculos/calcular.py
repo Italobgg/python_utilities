@@ -26,7 +26,7 @@ def calculadora():
 
     while True:
         option = input(
-            "Digite a opção para seguir ou escreva 'sair' para encerrar").strip().lower()
+            "Digite a opção para seguir ou escreva 'sair' para encerrar: ").strip().lower()
         if option == 'sair':
             print("Encerrando calculadora! ")
             break
